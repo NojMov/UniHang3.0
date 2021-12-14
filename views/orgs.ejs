@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UniHang Organizations</title>
-    <link rel="stylesheet" href="../public/css/organizations.css">
 
+    <script src="https://kit.fontawesome.com/1442fe0a36.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../public/css/organizations.css">
 </head>
 <body>
     <header>
@@ -19,6 +20,7 @@
                 <li class="navcontent"><a href="/">Home</a></li>
                 <li class="navcontent" id="on"><a href="/orgs">Orgs</a></li>
                 <li class="navcontent"><a href="/events">Events</a></li>
+                <li class="navcontent" id="float"><a href="/">Logout</a></li>
             </ul>
         </nav>
     </header>
@@ -39,6 +41,7 @@
                 </p>
                 <h3>Contact Information</h3>
                 <p class="orgInfo">
+                    <i class="fas fa-envelope-square"></i>
                     Email: fasou2018@gmail.com
                 </p>
             </div>
@@ -54,9 +57,30 @@
                 </p>
                 <h3>Contact Information</h3>
                 <p class="orgInfo">
-                    N/A
+                    <i class="fas fa-envelope-square"></i>Email: N/A
                 </p>
             </div>
+        </section>
+
+        <section class="container">
+            <h2>Create an Org</h2>
+            <form action="" id="event_creation" method="post">
+                <div>
+                    <label for="ename">Name of Org:</label>
+                    <br>
+                    <input type="text" name="evname" placeholder="e.g grizzgang">
+                    <br>
+                    <label for="edetails">Org Details:</label>
+                    <br>
+                    <input type="text" name="evdetails" placeholder="e.g we are about eating">
+                    <br>
+                    <label for="">Contact Info:</label>
+                    <br>
+                    <input type="text" name="evdetails" placeholder="e.g org@oakland.edu">
+                    <br>
+                    <input type="submit" value="Submit" class="button">
+                </div>
+              </form>
         </section>
          
         <section class="container">

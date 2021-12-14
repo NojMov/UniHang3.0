@@ -37,7 +37,7 @@ nav {
     margin: 5px;
     padding: 4px;
     display: inline;
-    background-color: rgba(185, 131, 14, 0.637);
+    background-color: rgba(250, 205, 108, 0.842);
     float: left;
     border-right: 1px solid;
     color: rgb(0, 0, 0);
@@ -79,4 +79,12 @@ h4 {
 hr {
     height: 2px;
     background-color: rgb(207, 137, 7);
+}
+
+a {
+    text-decoration: none;
+}
+
+li:last-child{
+    float: right;
 }
