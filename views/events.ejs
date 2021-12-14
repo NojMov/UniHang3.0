@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniHang Events</title>
+
+    <link rel="stylesheet" href="../public/css/events.css">
+</head>
+<body>
+    <header>
+        <a href="/">
+            <img src="../public/media/img/unihang_logo.jpg" alt="UniHang" class="logo">
+        </a>
+
+        <nav>
+            <ul id="nav">
+                <li class="navcontent"><a href="/">Home</a></li>
+                <li class="navcontent"><a href="/orgs">Orgs</a></li>
+                <li class="navcontent" id="on"><a href="/events">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2>Events</h2>
+            <p>Anyone can create events for other people to join in on the fun!</p>
+            <div class="e">
+                <h3>Preacher Lawson - Winter Opening Mainstage</h3>
+                <div class="edes">
+                    <h4>Description</h4>
+                    <p>
+                        Preacher Lawson was a finalist on Season 12 of America's Got Talent.
+                         Come to the Ballrooms to see him perform for the Winter 2022 Opening Mainstage.
+                    </p>
+                    <h4>Date and Time</h4>
+                    <p>
+                        Start: Tuesday, January 11 2022 at 7:00 PM EST 
+                        <br>
+                        End: Tuesday, January 11 2022 at 8:30 PM EST
+                    </p>
+                    <h4>Location</h4>
+                    <p>
+                        Location: Founders Ballrooms in the Oakland Center
+                    </p>
+                </div>
+            </div>
+
+            <div class="e">
+                <h3>Catch a Movie with the Web Dev of UniHang</h3>
+                <div class="edes">
+                    <h4>Description</h4>
+                    <p>
+                        Yo, anyone who sees this webpage can come catch a movie.
+                        This is not fake news! This is an open invite to anyone who
+                        sees this event and want to go. I will be seeing Spiderman no way
+                        home! I bought my tickets at the beginning of the month!
+                    </p>
+                    <h4>Date and Time</h4>
+                    <p>
+                        Start: Friday, December 17 2021 at 9:00 PM EST 
+                        <br>
+                        End: Friday, December 17 2021 at TBD
+                    </p>
+                    <h4>Location</h4>
+                    <p>
+                        Location: Emagine
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container">
+            <h2>Create an Event</h2>
+            <form action="" id="event_creation" method="post">
+                <div>
+                    <label for="ename">Name of Event:</label>
+                    <br>
+                    <input type="text" name="evname" placeholder="e.g hangout sesh">
+                    <br>
+                    <label for="edate">Date of Event:</label>
+                    <br>
+                    <input type="text" id="date" name="thedate" placeholder="e.g year/month/day">
+                    <br>
+                    <label for="edetails">Event Details:</label>
+                    <br>
+                    <input type="text" name="evdetails" id="edet" placeholder="e.g we going to eat(max characters 255)">
+                    <br>
+                    <input type="submit" value="Submit" class="button">
+                </div>
+              </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        &copy; UniHang
+    </footer>
+</body>
+</html>
